@@ -1,4 +1,4 @@
-interface initialState {
+type InitialState = {
     success: boolean
-    error: boolean
+    errors: object
 }
